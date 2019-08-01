@@ -23,6 +23,7 @@ def read(*names, **kwargs):
 
 
 test_deps = [
+    'Flask-SQLAlchemy>=2.4.0,<2.5.0',
     'flask-testing>=0.7.1',
     'pytest>=4.6.0',
 ],
@@ -62,6 +63,8 @@ setup(
     python_requires='>=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*',
     install_requires=[
         'flask>=1.0',
+        'future>=0.16.0',
+        'SQLAlchemy>=1.2.2',
     ],
     extras_require={
         'test': test_deps
