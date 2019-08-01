@@ -5,5 +5,51 @@ Heavily influenced by [flask-queryinspect](https://github.com/noise/flask-queryi
 ![image](./icon.jpg)
 (image [source](https://www.flickr.com/photos/veryveryquiet))
 
+## Installation
 
+For now you have to use the Git repository:
+
+```bash
+pip install git+https://github.com/getbyrd/inspektor.git#egg=inspektor
+```
+
+
+## Usage
+
+Using eagerly configured Flask application:
+
+```python
+from flask import Flask
+from inspektor import QueryInspector
+
+app = Flask(__name__)
+qi = QueryInspector(app)
+```
+
+Using lazy configuration or application factory pattern:
+
+```python
+from flask import Flask
+from inspektor import QueryInspector
+
+
+qi = QueryInspector()
+
+
+def create_app():
+    app = Flask(__name__)
+    qi.init_app(app)
+```
+
+
+## Configuration
+
+*Note*: Query inspector is not enabled by default.
+
+Variable               | Default | Description
+--------               | ------- | -----------
+QUERYINSPECT_ENABLED   | False   | Activate the extension / react to SQL queries.
+QUERYINSPECT_HEADERS   | True    | Enable reporting in HTTP response header.
+QUERYINSPECT_LOG       | True    | Enable reporting in INFO level log message.
+QUERYINSPECT_LOG_DUPES | False   | Enable logging of duplicated SQL queries.
 
