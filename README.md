@@ -1,9 +1,10 @@
+[![CircleCI](https://circleci.com/gh/getbyrd/inspektor/tree/master.svg?style=svg)](https://circleci.com/gh/getbyrd/inspektor/tree/master)
+
 # Inspektor
 SQLAlchemy querying metrics collection and reporting extension for Flask.
 Heavily influenced by [flask-queryinspect](https://github.com/noise/flask-queryinspect).
 
-![image](./icon.jpg)
-(image [source](https://www.flickr.com/photos/veryveryquiet))
+[![image](./icon.jpg)](https://www.flickr.com/photos/veryveryquiet)
 
 ## Installation
 
