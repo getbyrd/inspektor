@@ -36,7 +36,7 @@ setup(
     description='SQLAlchemy querying metrics collection and reporting'
                 ' extension for Flask.',
     long_description=read('README.md'),
-    long_description_type='text/markdown',
+    long_description_content_type='text/markdown',
     author='Byrd Technologies GmbH',
     author_email='developers@getbyrd.com',
     url='https://github.com/getbyrd/inspektor',
@@ -61,7 +61,7 @@ setup(
         'Programming Language :: Python :: 3.6',
         'Programming Language :: Python :: 3.7',
         'Programming Language :: Python :: Implementation :: CPython',
-        'Topic :: Software Development :: Libraries :: Python Modules'
+        'Topic :: Software Development :: Libraries :: Python Modules',
         'Environment :: Web Environment',
     ],
     python_requires='>=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*',
@@ -71,6 +71,7 @@ setup(
         'SQLAlchemy>=1.2.2',
     ],
     extras_require={
-        'test': test_deps
+        'test': test_deps,
+        'dev': test_deps + ('twine',),
     }
 )
