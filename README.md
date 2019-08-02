@@ -1,6 +1,6 @@
 [![CircleCI](https://circleci.com/gh/getbyrd/inspektor/tree/master.svg?style=svg)](https://circleci.com/gh/getbyrd/inspektor/tree/master)
 
-# Inspektor
+# Flask-Inspektor
 SQLAlchemy querying metrics collection and reporting extension for Flask.
 Heavily influenced by [flask-queryinspect](https://github.com/noise/flask-queryinspect).
 
@@ -11,7 +11,7 @@ Heavily influenced by [flask-queryinspect](https://github.com/noise/flask-queryi
 For now you have to use the Git repository:
 
 ```bash
-pip install git+https://github.com/getbyrd/inspektor.git#egg=inspektor
+pip install git+https://github.com/getbyrd/inspektor.git#egg=flask-inspektor
 ```
 
 
@@ -21,7 +21,7 @@ Using eagerly configured Flask application:
 
 ```python
 from flask import Flask
-from inspektor import QueryInspector
+from flask_inspektor import QueryInspector
 
 app = Flask(__name__)
 qi = QueryInspector(app)
@@ -31,7 +31,7 @@ Using lazy configuration or application factory pattern:
 
 ```python
 from flask import Flask
-from inspektor import QueryInspector
+from flask_inspektor import QueryInspector
 
 
 qi = QueryInspector()
