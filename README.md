@@ -56,4 +56,4 @@ QUERYINSPECT_LOG_DUPES | False   | Enable logging of duplicated SQL queries.
 
 ------
 
-Delivered to you by [developers](developers@getbyrd.com) of [Byrd](https://getbyrd.com).
+Delivered to you by [developers](mailto:developers@getbyrd.com) of [Byrd](https://getbyrd.com).
