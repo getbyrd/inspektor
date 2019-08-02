@@ -35,6 +35,8 @@ setup(
     license='MIT',
     description='SQLAlchemy querying metrics collection and reporting'
                 ' extension for Flask.',
+    long_description=read('README.md'),
+    long_description_type='text/markdown',
     author='Byrd Technologies GmbH',
     author_email='developers@getbyrd.com',
     url='https://github.com/getbyrd/inspektor',
@@ -53,7 +55,9 @@ setup(
         'Operating System :: Unix',
         'Operating System :: POSIX',
         'Programming Language :: Python',
+        'Programming Language :: Python :: 2',
         'Programming Language :: Python :: 2.7',
+        'Programming Language :: Python :: 3',
         'Programming Language :: Python :: 3.6',
         'Programming Language :: Python :: 3.7',
         'Programming Language :: Python :: Implementation :: CPython',
