@@ -53,3 +53,7 @@ QUERYINSPECT_HEADERS   | True    | Enable reporting in HTTP response header.
 QUERYINSPECT_LOG       | True    | Enable reporting in INFO level log message.
 QUERYINSPECT_LOG_DUPES | False   | Enable logging of duplicated SQL queries.
 
+
+------
+
+Delivered to you by [developers](developers@getbyrd.com) of [Byrd](https://getbyrd.com).
