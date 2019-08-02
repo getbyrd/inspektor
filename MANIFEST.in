@@ -12,3 +12,5 @@ include LICENSE
 include tox.ini
 
 global-exclude *.py[cod] __pycache__ *.so *.dylib
+exclude .circleci
+exclude .circleci/config.yml
