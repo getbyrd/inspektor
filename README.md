@@ -1,4 +1,6 @@
-[![CircleCI](https://circleci.com/gh/getbyrd/inspektor/tree/master.svg?style=svg)](https://circleci.com/gh/getbyrd/inspektor/tree/master)
+![CircleCI](https://img.shields.io/circleci/build/github/getbyrd/inspektor/master)
+![PyPI - License](https://img.shields.io/pypi/l/flask-inspektor)
+![PyPI](https://img.shields.io/pypi/v/flask-inspektor)
 
 # Inspektor
 SQLAlchemy querying metrics collection and reporting extension for Flask.
