@@ -31,7 +31,7 @@ test_deps = [
 
 setup(
     name='flask-inspektor',
-    version='0.1.0',
+    version='0.1.1',
     license='MIT',
     description='SQLAlchemy querying metrics collection and reporting'
                 ' extension for Flask.',
