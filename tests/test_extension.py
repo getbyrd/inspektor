@@ -2,7 +2,7 @@ import six
 
 from flask_sqlalchemy import SQLAlchemy
 
-from inspektor import QueryInspector
+from flask_inspektor import QueryInspector
 from tests.base import FakeAppTestCase
 
 

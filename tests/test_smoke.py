@@ -1,5 +1,5 @@
-import inspektor
+import flask_inspektor
 
 
 def test_load():
-    assert inspektor
+    assert flask_inspektor
